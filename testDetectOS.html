@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Detect the Operating system of the client</title>
+</head>
+<script type="text/javascript">
+function detectOS(){
+	var osName;
+	if(navigator.appVersion.indexOf("Win") != -1){
+		osName = "Windows";
+	}
+	
+	if(navigator.appVersion.indexOf("Mac") != -1){
+		osName = "Mac OS";
+	}
+
+	alert("OS running on this machine is: " + osName);
+}
+
+window.onLoad = detectOS();
+</script>
+<body>
+</body>
+</html>
