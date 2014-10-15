@@ -1,4 +1,4 @@
-sampleprograms
+Code Samples
 ==============
 
-Sample Programs
+Project consists of code samples
