@@ -6,4 +6,4 @@ As part of this project, I have created 3 different google product logos
 
 Download the .sketch file and see if you can modify something and make it better
 
-![alt tag](https://github.com/anuragrajandekar/work/blob/master/design/02_google_docs_icon_design/final/icon_set_output%403x.png)
+![alt tag](https://github.com/anuragrajandekar/work/blob/master/design/02_google_docs_icon_design/final/preview.png)
