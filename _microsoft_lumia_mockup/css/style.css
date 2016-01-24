@@ -1,0 +1,216 @@
+header {
+  margin: 10px auto;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #34495e;
+  background: #eee;
+}
+
+
+
+.main-mobile-body {
+  background: #009DC6;
+  margin:5% auto;
+  width: 320px;
+  height: 600px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 10px 10px 50px #888888;
+}
+
+.camera-div {
+  margin:5% auto;
+  width: 350px;
+  height: 700px;
+}
+
+
+.inner-lining {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  background: #292929;
+  margin:0 auto;
+  padding: 5px auto;
+  width: 300px;
+  height: 550px;
+  border-radius: 20px;
+}
+
+.large-tile {
+  width: 259px;
+  height: 125px;
+  margin-left: 5px;
+  background: #F0261A;
+  float: left;
+  margin-top: 5px;
+  transition: 1s ease-in-out;
+}
+
+.medium-tile {
+  width: 127px;
+  height: 126px;
+  margin-left: 5px;
+  background: #F0261A;
+  float: left;
+  margin-top: 5px;
+  transition: 1s ease-in-out;
+}
+
+.small-tile {
+  width: 61px;
+  height: 61px;
+  margin-left: 5px;
+  background: #F0261A;
+  float: left;
+  margin-top: 5px;
+  transition: 1s ease-in-out;
+}
+
+.signal-bar {
+  width: 100%;
+  height: 10px;
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 3px;
+}
+
+.signal-icon {
+  float: left;
+  color: #FEFEFE;
+  margin-left: 2px;
+}
+
+.wifi-icon {
+  float: left;
+  margin-left: 6px;
+  color: #FEFEFE;
+}
+
+.battery-icon {
+  float: right;
+  margin-right: 25px;
+  color: #FEFEFE;
+}
+
+
+.phone-icon ,
+.whatsapp-icon,
+.email-icon,
+.ie-icon,
+.skype-icon,
+.facebook-icon,
+.twitter-icon,
+.weather-icon,
+.amazon-icon,
+.google-icon,
+.instagram-icon,
+.linkedin-icon {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #FEFEFE;
+}
+
+
+
+.align-right {
+  float:right;
+}
+
+.tile-container {
+  height: 100%;
+  background: #292929;
+  padding-left: 15px;
+  border-radius: 20px;
+}
+
+.volume-rocker-1 {
+  width: 50px;
+  height: 3px;
+  background: black;
+  top: 180px;
+  left: 310px;
+  position: relative;
+  transform: rotate(90deg);
+  border-top-left-radius: 3px;
+  border-top-right-radius:3px;
+}
+
+.volume-rocker-2 {
+  width: 50px;
+  height: 3px;
+  background: black;
+  top: 220px;
+  left: 310px;
+  position: relative;
+  transform: rotate(90deg);
+  border-top-left-radius: 3px;
+  border-top-right-radius:3px;
+}
+
+.power-button {
+  width: 50px;
+  height: 3px;
+  background: black;
+  top: 300px;
+  left: 310px;
+  position: relative;
+  transform: rotate(90deg);
+  border-top-left-radius: 3px;
+  border-top-right-radius:3px;
+}
+
+.camera-button {
+  width: 50px;
+  height: 3px;
+  background: black;
+  top: 500px;
+  left: 310px;
+  position: relative;
+  transform: rotate(90deg);
+  border-top-left-radius: 3px;
+  border-top-right-radius:3px;
+}
+
+.backbutton-bar {
+  width: 260px;
+  height: 15px;
+  display: block;
+  margin: 0 auto;
+  margin-top: -35px;
+}
+
+.arrow-icon {
+  float: left;
+  color: #FEFEFE;
+  margin-left: 2px;
+}
+
+.search-icon {
+  float: right;
+  color: #FEFEFE;
+  margin-left: 2px;
+  transform: scaleX(-1);
+}
+
+.windows-icon {
+  color: #FEFEFE;
+}
+
+.large-tile:hover {
+  transform: rotateX(360deg);
+}
+
+.medium-tile:hover {
+  transform: rotateX(360deg);
+}
+
+.small-tile:hover {
+  transform: rotateX(360deg);
+}

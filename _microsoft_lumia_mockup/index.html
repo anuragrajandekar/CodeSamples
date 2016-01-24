@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Microsoft Lumia</title>
+    
+    
+    <link rel="stylesheet" href="css/normalize.css">
+
+    
+        <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      header {
+  margin: 10px auto;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #34495e;
+  background: #eee;
+}
+
+
+
+.main-mobile-body {
+  background: #009DC6;
+  margin:5% auto;
+  width: 320px;
+  height: 600px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 10px 10px 50px #888888;
+}
+
+.camera-div {
+  margin:5% auto;
+  width: 350px;
+  height: 700px;
+}
+
+
+.inner-lining {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  background: #292929;
+  margin:0 auto;
+  padding: 5px auto;
+  width: 300px;
+  height: 550px;
+  border-radius: 20px;
+}
+
+.large-tile {
+  width: 259px;
+  height: 125px;
+  margin-left: 5px;
+  background: #F0261A;
+  float: left;
+  margin-top: 5px;
+  transition: 1s ease-in-out;
+}
+
+.medium-tile {
+  width: 127px;
+  height: 126px;
+  margin-left: 5px;
+  background: #F0261A;
+  float: left;
+  margin-top: 5px;
+  transition: 1s ease-in-out;
+}
+
+.small-tile {
+  width: 61px;
+  height: 61px;
+  margin-left: 5px;
+  background: #F0261A;
+  float: left;
+  margin-top: 5px;
+  transition: 1s ease-in-out;
+}
+
+.signal-bar {
+  width: 100%;
+  height: 10px;
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 3px;
+}
+
+.signal-icon {
+  float: left;
+  color: #FEFEFE;
+  margin-left: 2px;
+}
+
+.wifi-icon {
+  float: left;
+  margin-left: 6px;
+  color: #FEFEFE;
+}
+
+.battery-icon {
+  float: right;
+  margin-right: 25px;
+  color: #FEFEFE;
+}
+
+
+.phone-icon ,
+.whatsapp-icon,
+.email-icon,
+.ie-icon,
+.skype-icon,
+.facebook-icon,
+.twitter-icon,
+.weather-icon,
+.amazon-icon,
+.google-icon,
+.instagram-icon,
+.linkedin-icon {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #FEFEFE;
+}
+
+
+
+.align-right {
+  float:right;
+}
+
+.tile-container {
+  height: 100%;
+  background: #292929;
+  padding-left: 15px;
+  border-radius: 20px;
+}
+
+.volume-rocker-1 {
+  width: 50px;
+  height: 3px;
+  background: black;
+  top: 180px;
+  left: 310px;
+  position: relative;
+  transform: rotate(90deg);
+  border-top-left-radius: 3px;
+  border-top-right-radius:3px;
+}
+
+.volume-rocker-2 {
+  width: 50px;
+  height: 3px;
+  background: black;
+  top: 220px;
+  left: 310px;
+  position: relative;
+  transform: rotate(90deg);
+  border-top-left-radius: 3px;
+  border-top-right-radius:3px;
+}
+
+.power-button {
+  width: 50px;
+  height: 3px;
+  background: black;
+  top: 300px;
+  left: 310px;
+  position: relative;
+  transform: rotate(90deg);
+  border-top-left-radius: 3px;
+  border-top-right-radius:3px;
+}
+
+.camera-button {
+  width: 50px;
+  height: 3px;
+  background: black;
+  top: 500px;
+  left: 310px;
+  position: relative;
+  transform: rotate(90deg);
+  border-top-left-radius: 3px;
+  border-top-right-radius:3px;
+}
+
+.backbutton-bar {
+  width: 260px;
+  height: 15px;
+  display: block;
+  margin: 0 auto;
+  margin-top: -35px;
+}
+
+.arrow-icon {
+  float: left;
+  color: #FEFEFE;
+  margin-left: 2px;
+}
+
+.search-icon {
+  float: right;
+  color: #FEFEFE;
+  margin-left: 2px;
+  transform: scaleX(-1);
+}
+
+.windows-icon {
+  color: #FEFEFE;
+}
+
+.large-tile:hover {
+  transform: rotateX(360deg);
+}
+
+.medium-tile:hover {
+  transform: rotateX(360deg);
+}
+
+.small-tile:hover {
+  transform: rotateX(360deg);
+}
+
+    </style>
+
+    
+        <script src="js/prefixfree.min.js"></script>
+
+    
+  </head>
+
+  <body>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,500italic,700,900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<header>
+  <h1>Microsoft Lumia</h1>
+</header>
+
+<div class="camera-div">
+  <div class="volume-rocker-1"></div>
+  <div class="volume-rocker-2"></div>
+  <div class="power-button"></div>
+  <div class="camera-button"></div>
+  <div class="main-mobile-body">
+    <div class="inner-lining">
+      <div class="tile-container">
+        <div class="signal-bar">
+          <i class="fa fa-signal signal-icon"></i>
+          <i class="fa fa-wifi wifi-icon"></i>
+          <i class="fa fa-battery-half battery-icon"></i>
+        </div>
+        <div class="medium-tile"><i class="fa fa-phone fa-4x phone-icon"></i></div>
+        <div class="small-tile"><i class="fa fa-internet-explorer fa-2x ie-icon"></i></div>
+        <div class="small-tile"><i class="fa fa-whatsapp fa-2x whatsapp-icon"></i></div>
+        <div class="small-tile"><i class="fa fa-skype fa-2x skype-icon"></i></div>
+        <div class="small-tile"><i class="fa fa-facebook-official  fa-2x facebook-icon"></i></div>
+        <div class="large-tile"><i class="fa fa-envelope-o fa-4x email-icon"></i></div>
+        <div class="small-tile"><i class="fa fa-twitter fa-2x twitter-icon"></i></div>
+        <div class="small-tile"><i class="fa fa-sun-o fa-2x weather-icon"></i></div>
+        <div class="small-tile"><i class="fa fa-amazon fa-2x amazon-icon"></i></div>
+        <div class="small-tile"><i class="fa fa-google fa-2x google-icon"></i></div>
+        <div class="medium-tile"><i class="fa fa-instagram fa-4x  instagram-icon"></i></div>
+        <div class="medium-tile"><i class="fa fa-linkedin fa-4x linkedin-icon"></i></div>
+      </div>
+      <div class="backbutton-bar">
+        <i class="fa fa-arrow-left arrow-icon"></i>
+        <i class="fa fa-windows windows-icon"></i>
+        <i class="fa fa-search search-icon"></i>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+    
+    
+    
+  </body>
+</html>
